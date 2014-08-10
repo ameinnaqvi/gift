@@ -16,4 +16,7 @@
   <vs:platformSpecificValues>
     <vs:platformSpecificWidget platformName="windows8" />
   </vs:platformSpecificValues>
+  <feature name="Camera">
+    <param name="android-package" value="org.apache.cordova.CameraLauncher" />
+  </feature>
 </widget>
