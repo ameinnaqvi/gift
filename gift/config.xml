@@ -9,6 +9,11 @@
   </author>
   <content src="index.html" />
   <access origin="*" />
-  <vs:features />
   <preference name="SplashScreen" value="screen" />
+  <vs:features>
+    <vs:feature>org.apache.cordova.camera@0.2.8</vs:feature>
+  </vs:features>
+  <vs:platformSpecificValues>
+    <vs:platformSpecificWidget platformName="windows8" />
+  </vs:platformSpecificValues>
 </widget>
